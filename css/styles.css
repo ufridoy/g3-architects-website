@@ -78,9 +78,12 @@ header{
     margin: 50px auto;
 }
 
+/* team style */
+
 .team-container{
     justify-content: center;
     align-items: center;
+    margin-bottom: 130px;
 }
 
 .team-image-container{
@@ -115,30 +118,100 @@ header{
     color: #FF900E;
 }
 
+/* features */
+.Features-container{
+    max-width: 1440px;
+    margin: 0% auto;
+    gap: 146px;
+}
+.Features-content{
+    max-width: 586px;
+}
+.Features-title{
+    font-size: 2.80rem;
+    font-weight: bold;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+}
+.Features-description{
+    font-size: 1rem;
+    color: #727272;
+}
+.Features-sub-container{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.features-sub-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.features-sub-description{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.Features-container-image{
+    margin-right: 0%;
+}
+.features-sub-image{
+    width: 100%;
+}
+.secondary-btn{
+    padding: 45px 42px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: -77px;
+    margin-left: -92px;
+}
+.year-btn{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+/* responsive for mobile */
 
 @media screen and (max-width: 576px) {
     .navbar,
-    .nav-items{
+    .nav-items,
+    .team-container,
+    .Features-container{
         flex-direction: column;
     }
-    .team-container{
-        flex-direction: column;
-    }
+
     .team-image-container{
         grid-template-columns: repeat(1, 1fr);
         margin: 0% auto;
     }
+    .secondary-btn{
+        margin: 0% auto;
+    }
 }
 
+
+/* responsive for tab */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    {
-        flex-direction: column;
-    }
-    .team-container{
+    .team-container,
+    .Features-container{
         flex-direction: column;
     }
     .team-image-container{
         grid-template-columns: repeat(2, 1fr);
+        margin: 0% auto;
+    }
+    .Features-content{
+        justify-content: center;
+    }
+    .secondary-btn{
         margin: 0% auto;
     }
 }
