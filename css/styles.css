@@ -281,10 +281,7 @@ footer{
 
 /* responsive for mobile */
 
-@media screen and (max-width: 576px) {}
-
 /* responsive for tab */
-@media screen and (min-width: 576px) and (max-width: 992px) {}
 
 /* Responsive styles */
 
