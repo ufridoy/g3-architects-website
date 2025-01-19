@@ -258,6 +258,7 @@ header{
     justify-content: space-between;
     max-width: 1440px;
     margin: 0% auto;
+    filter: grayscale(100%);
 }
 
 /* footer style */
