@@ -274,7 +274,7 @@ footer{
     border-radius: 8px;
 }
 .footer-description{
-    max-width: 620px;
+    max-width: auto;
     font-size: 1.25rem;
     color: #424242;
     margin: 0;
@@ -328,12 +328,12 @@ footer{
     .footer {
         padding: 10px;
         margin: 0% auto;
-        text-align: left; /* Change this to 'left' */
+        text-align: center; /* Change this to 'left' */
     }
     .footer-description {
         display: flex;
         justify-content: center;
-        max-width: 50%;
+        max-width: 100%;
     }
   }
   
